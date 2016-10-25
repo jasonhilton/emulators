@@ -1,0 +1,13 @@
+Package: emulatorsPHD
+Type: Package
+Title: R Code needed for Emulators in J Hilton's PHD
+Version: 0.0.9
+Author: Jason Hilton
+Maintainer: Jason Hilton <jason_hilton@yahoo.com>
+Description: Code to fit a variety of emulators.
+License: GPL-3
+LazyData: TRUE
+Imports:
+  boot
+  lhs
+  ggplot
