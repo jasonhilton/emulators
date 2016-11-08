@@ -24,12 +24,12 @@ create_data_object<-function(input,output,det,hfunc=createH){
   if (det == F){
     s = s + 1            # extra nugget hyperparameter in stochastic case
   }
-  data <- list(d1 = d1, hmat = hmat, fofD = fofD, # data objects
+  outob <- list(d1 = d1, hmat = hmat, fofD = fofD, # data objects
                r = r, p = p, q = q, s = s, N = N, # size objects
                det = det # deterministic flag
   )
   class(outob) <- "em_data"
-  return (data)
+  return (outob)
 }
 
 

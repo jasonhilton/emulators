@@ -8,6 +8,6 @@ Description: Code to fit a variety of emulators.
 License: GPL-3
 LazyData: TRUE
 Imports:
-  boot
-  lhs
-  ggplot
+    ggplot2,
+    boot,
+    lhs
